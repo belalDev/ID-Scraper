@@ -19,4 +19,3 @@ with open('result.txt', 'w', encoding="utf-8") as file :
         user = str(bot.gateway.session.guild(guild).members[memberID].get('username'))
         print(f'ID: {id}\n')
         file.write(f'{id}\n')
-           
